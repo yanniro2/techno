@@ -1,0 +1,30 @@
+//Base
+@import "./Base/base";
+@import "./Base/variables";
+
+//Layout
+@import "./Layout/mainLayout";
+@import "./Layout/Login";
+@import "./Layout/main";
+
+//Components
+@import "./Components/Sidebar";
+@import "./Components/Login-layout";
+@import "./Components/Hero";
+@import "./Components/Types";
+@import "./Components/Simply";
+@import "./Components/VideoTab";
+@import "./Components/From";
+@import "./Components/Footer";
+@import "./Components/Popup";
+
+// Buttons
+@import "./Button/button";
+
+// Inputs
+@import "./Inputs/Input";
+
+//Responsible
+@import "./Responsive/tab";
+@import "./Responsive/mobile";
+@import "./Responsive/default";

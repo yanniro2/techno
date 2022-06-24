@@ -1,0 +1,22 @@
+.Simply {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1rem;
+
+  small {
+    font-size: 1.4rem;
+    color: $orange;
+  }
+  h4 {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+  }
+  p {
+    font-size: 1.2rem;
+    color: $light-Gray;
+    margin-bottom: 2rem;
+  }
+}

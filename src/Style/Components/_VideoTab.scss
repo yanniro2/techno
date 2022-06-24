@@ -1,0 +1,41 @@
+.VideoTab {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 80%;
+  background-color: $white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+
+  .heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    img {
+      width: 3rem;
+      height: 3rem;
+      margin: 1rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 500;
+      color: $Dark-Black;
+      margin: 1rem;
+    }
+  }
+
+  p {
+    color: $light-Gray;
+    margin: 0 1rem;
+  }
+  video {
+    width: 100%;
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,40 @@
+.types {
+  margin: 4rem 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .sub-section {
+    width: 100%;
+    padding: 2rem 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .type-img {
+      img {
+        width: 35rem;
+        padding: 2rem;
+        max-height: 100%;
+      }
+    }
+
+    .Simply {
+      width: 50%;
+    }
+  }
+
+  .sub-section-bottom {
+    background-color: #eee;
+    .Simply {
+      align-items: flex-end;
+      text-align: right;
+    }
+  }
+  .sub-section-top {
+    .Simply {
+      align-items: flex-start;
+      text-align: left;
+    }
+  }
+}
