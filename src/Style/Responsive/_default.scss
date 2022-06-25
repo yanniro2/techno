@@ -10,3 +10,67 @@
     align-self: center;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .Sidebar {
+    width: 100%;
+    margin: 0;
+  }
+
+  .Login-layout {
+    height: 60%;
+    margin-bottom: 50%;
+  }
+  .Login-layout .from {
+    height: 100%;
+  }
+
+  .Main header {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .Main header img {
+    width: 8rem;
+    margin: 0;
+  }
+  .search .input-search {
+    padding: 5px;
+    padding-left: 20px;
+    width: 20rem;
+  }
+  .search .search-icon {
+    left: 5px;
+    top: 8px;
+  }
+  .Main header .profile img {
+    margin: 0;
+  }
+
+  .Main .hero-section .hero-banner .left {
+    right: 5rem;
+  }
+  .Main .hero-section .hero-banner .right {
+    left: 5rem;
+  }
+  .Main .hero-section .advisors h3 {
+    font-size: 2rem;
+  }
+  .Main .hero-section .advisors p {
+    font-size: 1.2rem;
+  }
+  .types .sub-section {
+    width: 100%;
+    padding: 0;
+  }
+  .types .sub-section-top .Simply {
+    text-align: center;
+    align-items: center;
+  }
+  .types .sub-section-bottom .Simply {
+    text-align: center;
+    align-items: center;
+  }
+  .form-tab .form input {
+    width: 80%;
+  }
+}
