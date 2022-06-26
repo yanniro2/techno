@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import mainlogo from "../Img/main_logo.png";
-import axios from "axios";
+// import axios from "axios";
 import { Link } from "react-router-dom";
 function Register() {
   const [data, setData] = React.useState([
@@ -14,20 +14,20 @@ function Register() {
     },
   ]);
 
-  function handleform(e) {
-    e.preventDefault();
-    console.log("Working");
-    console.log(data);
+  // function handleform(e) {
+  //   e.preventDefault();
+  //   console.log("Working");
+  //   console.log(data);
 
-    axios
-      .post("http://localhost:3000/Register", data)
-      .then((res) => {
-        console.log(res);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }
+  //   axios
+  //     .post("http://localhost:3000/Register", data)
+  //     .then((res) => {
+  //       console.log(res);
+  //     })
+  //     .catch((err) => {
+  //       console.log(err);
+  //     });
+  // }
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -114,7 +114,7 @@ function Register() {
             </button>
             <span>or</span>
             <button className="register-btn">
-              <Link to="/" className="Link-hyper">
+              <Link to="/techno" className="Link-hyper">
                 Login
               </Link>
               {/* login */}

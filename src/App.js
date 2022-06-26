@@ -6,17 +6,18 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
-  const [login, setLogin] = React.useState(true);
-  const [register, setRegister] = React.useState(false);
-  const loginCheck = () => {
-    setLogin(!login);
-  };
+  // const [login, setLogin] = React.useState(true);
+  // const [register, setRegister] = React.useState(false);
+  // const loginCheck = () => {
+  //   setLogin(!login);
+  // };
 
   return (
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" exact element={<Login />} />
+          {/* <Route path="/techno" exact element={<Login />} /> */}
+          <Route path="/techno" exact element={<Login />} />
           <Route path="/Main" element={<Main />} />
           <Route path="/Register" element={<Register />} />
         </Routes>

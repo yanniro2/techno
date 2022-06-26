@@ -14,6 +14,7 @@ import mockup2 from "../Img/mockups2.png";
 import VideoTab from "../Components/MinComponents/VideoTab";
 import Clip from "../video/Clip.mov";
 import Popup from "./Popup";
+import { Link } from "react-router-dom";
 
 function Main() {
   const [popup, setPopup] = React.useState(false);
@@ -54,7 +55,10 @@ function Main() {
         ""
       )}
       <header>
-        <img src={mainLogo} alt="logo" />
+        <Link to="/techno">
+          <img src={mainLogo} alt="logo" />
+        </Link>
+
         <div className="search">
           <input
             type="search"
