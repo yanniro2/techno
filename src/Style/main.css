@@ -18,6 +18,35 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.box span {
+  font-size: 1.4rem;
+  margin: 1rem;
+}
+
+.Link-btn {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Link-btn:hover {
+  background-color: #fff;
+  color: #f29009;
+  -webkit-transform: all 0.3s;
+          transform: all 0.3s;
+}
+
+.Link-hyper {
+  color: #191919;
+  text-decoration: none;
+}
+
+.Link-hyper:hover {
+  background-color: #fff;
+  color: #f29009;
+  -webkit-transform: all 0.3s;
+          transform: all 0.3s;
+}
+
 .App {
   width: 100%;
   height: 100%;
@@ -749,6 +778,127 @@ body {
   margin: 2rem 0;
 }
 
+.Register {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  align-items: center;
+}
+
+.Sidebar {
+  width: 19%;
+  height: 100%;
+  background-color: #191919;
+}
+
+.Register-layout {
+  width: 80%;
+  height: 100%;
+  background-color: #fafafa;
+}
+
+.Register-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.Register-form {
+  width: 50%;
+  height: 90%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.Register-form h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #191919;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-bottom: -5px;
+}
+
+.Register-form h2 {
+  font-size: 2rem;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.Register-form .Register-input {
+  width: 100%;
+}
+
+.Register-form .Register-input .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.Register-footer {
+  width: 100%;
+  height: 5rem;
+  position: fixed;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .input-btn {
   padding: 1rem 3rem;
   cursor: pointer;
@@ -790,7 +940,7 @@ body {
 
 .submit-btn {
   padding: 1rem 4rem;
-  color: #fff;
+  color: #fff !important;
   background-color: #f29009;
   border: none;
   border-radius: 0.5rem;
@@ -805,8 +955,8 @@ body {
 .submit-btn:hover {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  color: #f29009;
-  background-color: #fff;
+  color: #f29009 !important;
+  background-color: #fff !important;
 }
 
 .buy-btn {
@@ -828,6 +978,22 @@ body {
   transition: all 0.3s;
   color: #f29009;
   background-color: #fff;
+}
+
+.register-btn {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: underline;
+  color: #191919 !important;
+}
+
+.register-btn:hover {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #f29009 !important;
 }
 
 .input-text {
@@ -948,6 +1114,12 @@ label {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .Register {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .Sidebar {
     width: 100%;
     height: 5rem;
@@ -959,6 +1131,9 @@ label {
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .Login-layout {
+    width: 100%;
+  }
+  .Register-layout {
     width: 100%;
   }
   .form {
@@ -1041,6 +1216,12 @@ label {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .Register {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .Sidebar {
     width: 100%;
     height: 5rem;
@@ -1052,6 +1233,9 @@ label {
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .Login-layout {
+    width: 100%;
+  }
+  .Register-layout {
     width: 100%;
   }
   .form {
@@ -1189,7 +1373,14 @@ label {
     height: 60%;
     margin-bottom: 50%;
   }
+  .Register-layout {
+    height: 60%;
+    margin-bottom: 50%;
+  }
   .Login-layout .from {
+    height: 100%;
+  }
+  .Register-layout .from {
     height: 100%;
   }
   .Main header {

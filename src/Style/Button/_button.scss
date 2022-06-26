@@ -35,7 +35,7 @@
 
 .submit-btn {
   padding: 1rem 4rem;
-  color: $white;
+  color: $white !important;
   background-color: $orange;
   border: none;
   border-radius: 0.5rem;
@@ -47,8 +47,8 @@
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   &:hover {
     transition: all 0.3s;
-    color: $orange;
-    background-color: $white;
+    color: $orange !important;
+    background-color: $white !important;
   }
 }
 
@@ -68,5 +68,19 @@
     transition: all 0.3s;
     color: $orange;
     background-color: $white;
+  }
+}
+
+.register-btn {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: underline;
+  color: $Dark-Black !important;
+  &:hover {
+    transition: all 0.3s;
+    color: $orange !important;
   }
 }

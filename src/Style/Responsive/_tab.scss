@@ -6,6 +6,9 @@
   .Login {
     flex-direction: column;
   }
+  .Register {
+    flex-direction: column;
+  }
   .Sidebar {
     width: 100%;
     height: 5rem;
@@ -14,6 +17,9 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .Login-layout {
+    width: 100%;
+  }
+  .Register-layout {
     width: 100%;
   }
   .form {

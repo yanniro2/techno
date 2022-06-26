@@ -1,0 +1,28 @@
+.box {
+  span {
+    font-size: 1.4rem;
+    margin: 1rem;
+  }
+}
+
+.Link-btn {
+  color: #fff;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $white;
+    color: $orange;
+    transform: all 0.3s;
+  }
+}
+
+.Link-hyper {
+  color: $Dark-Black;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $white;
+    color: $orange;
+    transform: all 0.3s;
+  }
+}

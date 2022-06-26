@@ -1,6 +1,7 @@
 //Base
 @import "./Base/base";
 @import "./Base/variables";
+@import "./Base/State";
 
 //Layout
 @import "./Layout/mainLayout";
@@ -17,6 +18,8 @@
 @import "./Components/From";
 @import "./Components/Footer";
 @import "./Components/Popup";
+@import "./Components/Register";
+@import "./Components/Register-layout";
 
 // Buttons
 @import "./Button/button";

@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import mainlogo from "../Img/main_logo.png";
-
+import { Link } from "react-router-dom";
 function Login(props) {
   return (
     <div className="Login">
@@ -49,9 +49,21 @@ function Login(props) {
               Forgot Password
             </a>
           </div>
-          <button className="input-btn" onClick={props.loginCheck}>
-            Login
-          </button>
+          <div className="box">
+            <button className="input-btn" onClick={props.loginCheck}>
+              {/* Login */}
+              <Link to="/Main" className="Link-btn">
+                Login
+              </Link>
+            </button>
+            <span>or</span>
+            <button className="register-btn">
+              <Link to="/Register" className="Link-hyper">
+                Register
+              </Link>
+              {/* Register */}
+            </button>
+          </div>
         </div>
         <footer className="login-footer ">
           <p>Copyrights @ 2022 Techno. All Rights Reserved Copyrights Techno</p>
